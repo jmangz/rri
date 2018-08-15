@@ -16,6 +16,6 @@ const TodoList = ({ todos }) => (
 );
 
 TodoList.propTypes = {
-  todos: PropTypes.arrayOf(PropTypes.objects).isRequired,
+  todos: PropTypes.array.isRequired,
 };
 export default TodoList;
