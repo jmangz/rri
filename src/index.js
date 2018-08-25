@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
 import TodoList from './TodoList';
 
 const dummyTodos = [
@@ -9,4 +9,4 @@ const dummyTodos = [
   { id: 3, isDone: false, text: 'connect components' },
 ];
 
-render(<TodoList todos={dummyTodos} />, document.getElementById('app'));
+ReactDOM.render(<TodoList todos={dummyTodos} />, document.getElementById('app'));
